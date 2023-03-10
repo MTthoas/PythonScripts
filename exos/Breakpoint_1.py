@@ -77,11 +77,10 @@ def exo5():
         if(pression > pSeuil and volume > vSeuil):
             print("Arrêt immédiat !\n")
         elif(pression > pSeuil):
-            print("augmenter le volumede l’enceinte\n")
+            print("augmenter le volume de l’enceinte\n")
         elif(volume > vSeuil):
             print("diminuer le volume\n")
         else:
             print("tout va bien\n")
             break
             
-print(exo5())
